@@ -75,23 +75,18 @@
     scroll-behavior: smooth;
   }
 }
-
-.mypic{
-  border:2px solid white;
-  border-radius: 25%;
-}
-.pro{
-  border:2px solid var(--bs-secondary);
-  border-radius: 10%;
-  height: auto;
-}
-
 .skill{
+  font-size: 140%;
   text-align: center;
- font-size: 150%;
 }
+
 .edu{
   border:2px solid white;
+  height: auto;
+  border-radius: 20px;
+}
+.pro{
+  border:3px solid var(--bs-secondary);
   height: auto;
   border-radius: 20px;
 }
@@ -509,8 +504,8 @@ progress {
 }
 
 .lead {
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 
 .display-1 {
